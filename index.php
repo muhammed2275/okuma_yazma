@@ -1,5 +1,5 @@
 <?php
-/*muhammed*/
+/* Yazar: muhammed*/
  $Ad=$_POST["Ad"];
  $SoyAd=$_POST["SoyAd"];
  file_put_contents("uye_bilgileri.txt",$Ad . " " . $SoyAd ."\n",FILE_APPEND );
